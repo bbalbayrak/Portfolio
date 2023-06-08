@@ -47,7 +47,7 @@ const Header = () => {
             Contact
           </NavLink>
         </div>
-        <div>
+        <div className="max-sm:pl-6 max-sm:pt-3 ">
           <button
             className="text-md font-general-medium bg-red-800 hover:bg-red-600 hover:animate-bounce text-white shadow-lg rounded-2xl px-5 py-2.5 duration-200 font-mono"
             onClick={(e) => {

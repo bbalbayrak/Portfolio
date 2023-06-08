@@ -20,7 +20,7 @@ const About = () => {
   return (
     <Fragment>
       <div className="flex justify-around max-sm:grid p-7 pt-48 h-screen min-h-screen bg-gradient-to-bl from-red-500 via-amber-400 to-amber-100">
-        <div className="relative bg-gradient-to-tr  from-red-500 via-amber-300 to-amber-500 max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+        <div className=" relative bg-gradient-to-tr  from-red-500 via-amber-300 to-amber-500 max-w-sm rounded-2xl overflow-hidden shadow-2xl">
           <div className="px-6 py-4 ">
             <div className="font-extrabold text-xl mb-2 ">About Myself</div>
             <p className="text-base font-mono">{aboutDesc}</p>
