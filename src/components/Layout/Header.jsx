@@ -22,7 +22,7 @@ const Header = () => {
     <nav className="w-full fixed top-0 z-50 flex items-center bg-transparent shadow-xl justify-between flex-wrap p-7">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="animate-bounce font-semibold text-xl tracking-tight font-mono">
-          Bilal Burak Albayrak
+          <NavLink to="/">Bilal Burak Albayrak</NavLink>
         </span>
       </div>
 
