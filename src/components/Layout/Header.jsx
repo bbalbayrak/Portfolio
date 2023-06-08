@@ -3,7 +3,7 @@ import Axios from "axios";
 import FileDownload from "js-file-download";
 
 const Header = () => {
-  const URI = "http://localhost:3000";
+  const URI = "https://portfolio-api-l3ks.onrender.com";
 
   const download = (e) => {
     e.preventDefault();

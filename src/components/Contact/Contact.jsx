@@ -7,7 +7,7 @@ const Contact = () => {
   const [enteredEmail, setEnteredEmail] = useState("");
   const [enteredMessage, setEnteredMessage] = useState("");
 
-  const URI = "http://localhost:3000/createContact";
+  const URI = "https://portfolio-api-l3ks.onrender.com/createContact";
 
   const submitHandler = (e) => {
     e.preventDefault();
