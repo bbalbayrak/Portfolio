@@ -11,7 +11,7 @@ const Home = () => {
             Bilal Burak Albayrak
           </h2>
 
-          <p className="max-sm:pr-16 max-sm:grid font-mono pl-52 font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-black dark:text-gray-200">
+          <p className="max-sm:pr-16 max-sm:grid font-mono pl-52 font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-black ">
             <TypewriterComponent
               onInit={(ty) => {
                 ty.typeString("Hello Everyone !")
