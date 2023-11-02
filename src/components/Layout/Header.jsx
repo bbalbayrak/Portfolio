@@ -5,18 +5,18 @@ import FileDownload from "js-file-download";
 const Header = () => {
   const URI = "https://portfolio-api-l3ks.onrender.com";
 
-  const download = (e) => {
-    e.preventDefault();
+  // const download = (e) => {
+  //   e.preventDefault();
 
-    Axios({
-      url: URI,
-      method: "GET",
-      responseType: "blob",
-    }).then((res) => {
-      console.log(res);
-      FileDownload(res.data, "resume.pdf");
-    });
-  };
+  //   Axios({
+  //     url: URI,
+  //     method: "GET",
+  //     responseType: "blob",
+  //   }).then((res) => {
+  //     console.log(res);
+  //     FileDownload(res.data, "resume.pdf");
+  //   });
+  // };
 
   return (
     <nav className="w-full fixed top-0 z-50 flex items-center bg-transparent shadow-xl justify-between flex-wrap p-7">
@@ -50,8 +50,10 @@ const Header = () => {
         <div className="max-sm:pl-6 max-sm:pt-3 ">
           <button
             className="text-md font-general-medium bg-red-800 hover:bg-red-600 hover:animate-bounce text-white shadow-lg rounded-2xl px-5 py-2.5 duration-200 font-mono"
-            onClick={(e) => {
-              download(e);
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1_ixKkvmjMTXgEVa454wjy6DEsNUpgbIK/view?usp=drive_link"
+              );
             }}
           >
             Resume
